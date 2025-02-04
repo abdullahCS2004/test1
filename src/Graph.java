@@ -1,11 +1,11 @@
 import java.util.LinkedList;
 
-public class graph {
+public class Graph {
     private int v;
     private LinkedList<Integer>[] list;
 
 
-    public graph(int v) {
+    public Graph(int v) {
         this.v = v;
         list = new LinkedList[v];
         for (int i = 0; i < v; i++) {

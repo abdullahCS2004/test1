@@ -1,7 +1,6 @@
-import java.util.*;
 public class Main {
     public static void main(String[]args){
-        graph g=new graph(6);
+        Graph g=new Graph(6);
         g.add(0, 1);
         g.add(0, 2);
         g.add(1, 3);
